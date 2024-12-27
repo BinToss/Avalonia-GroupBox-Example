@@ -27,7 +27,7 @@ jobs:
 
       - run: npm ci
 
-      - uses: actions/setup-dotnet@v4.0.1
+      - uses: actions/setup-dotnet@v4.2.0
         with:
           dotnet-version: "8.x"
 
